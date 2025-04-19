@@ -3,7 +3,7 @@ install:
 		pip install -r requirements/requirements.txt &&\
 		pip install -r requirements/test_requirements.txt
 format:
-	black app/*.py
+	black *.py
 lint:
 	pylint --disable=R,C *.py
 test:
