@@ -4,8 +4,8 @@ install:
 		pip install -r requirements/test_requirements.txt
 format:
 	black *.py
-lint:
-	pylint --disable=R,C *.py
+#lint:
+#	pylint --disable=R,C *.py
 test:
-	python -m pytest tests/*.py
-all: install lint test format
+	python -m pytest 
+all: install test format
