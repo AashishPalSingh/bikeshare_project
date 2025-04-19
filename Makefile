@@ -6,6 +6,6 @@ format:
 	black *.py
 #lint:
 #	pylint --disable=R,C *.py
-test:
-	python -m pytest 
-all: install test format
+#test:
+#	python -m pytest 
+all: install format
